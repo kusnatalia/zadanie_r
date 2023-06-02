@@ -34,3 +34,14 @@ def silnia(s):
 # Jeżeli s wynosi 0, zwracamy 1 (warunek końcowy)
 #  Jeśli nie, zwracamy iloczyn s i silni z (s-1)
 # Wywołujemy funkcję rekurencyjnie dla liczby mniejszej o 1
+
+def fib(n):
+    if f <= 1:
+        return f
+    else:
+        return fib(f-1) + fib(f-2)
+
+# Proces:
+# Jeżeli f jest mniejsze lub równe 1, zwracamy f (warunek końcowy)
+# W przeciwnym razie, zwracamy sumę dwóch poprzednich liczb ciągu Fibonacciego
+# Wywołujemy funkcję rekurencyjnie dla dwóch poprzednich liczb
